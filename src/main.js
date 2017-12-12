@@ -3,7 +3,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 // 引用 路由配置文件，入口文件
 import App from './App'
+<<<<<<< HEAD
 import routes from './router/index'
+=======
+import router from './router'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+>>>>>>> d620d7f43908610cf980d5ed12b00edbbf608324
 import './assets/common.css'
 import './assets/common.less'
 
