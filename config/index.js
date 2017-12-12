@@ -11,7 +11,8 @@ module.exports = {
     assetsSubDirectory: 'static',
     // rev 不要改成./
     assetsPublicPath: '/',
-    proxyTable: {
+    // 配置接口代理
+    proxyTable: {   
         '/api': {
             target: 'http://service.zjzmjr.com',
             changeOrigin: true,
