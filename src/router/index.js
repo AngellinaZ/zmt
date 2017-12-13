@@ -20,14 +20,5 @@ export default [
         path: '/register',
         name: 'Register',
         component: Register
-<<<<<<< HEAD
     }
 ]
-=======
-    },{
-        path: '/test',
-        name: 'Test',
-        component: Test
-    }]
-})
->>>>>>> d620d7f43908610cf980d5ed12b00edbbf608324
